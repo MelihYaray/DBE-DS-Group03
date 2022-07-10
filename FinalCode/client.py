@@ -51,7 +51,7 @@ def receive_msg():
                 print("\nSorry, the Chat server is currently not available."
                       "Please wait for reconnection with new server leader.")
                 soc.close()
-                sleep(2)
+                sleep(3)
 
                 # Start reconnecting to new server leader
                 connect()
